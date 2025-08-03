@@ -1,16 +1,29 @@
-style.css
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f8ff;
   margin: 20px;
   padding: 20px;
+  color: #333;
 }
 
 h1 {
-  color: #333;
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
 }
 
 a {
   text-decoration: none;
-  color: blue;
+  color: #007acc;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005f99;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
 }
